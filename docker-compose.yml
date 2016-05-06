@@ -1,0 +1,52 @@
+my_app:
+      container_name: my_app-code
+      build: ./
+      volumes:
+          - ./:/var/www/my_app
+      tty: true
+
+# NGINX + MYSQL + PHP-FPM
+nginx:
+    container_name: my_app-nginx
+    build: ./Docker/nginx
+    ports:
+        - 80:80
+        - 443:443
+    links:
+        - php
+    volumes:
+        - ./logs/nginx:/var/log/nginx
+    volumes_from:
+        - my_app
+mysql:
+    container_name: my_app-mysql
+    image: mysql:5.7
+    volumes:
+       - /var/lib/mysql
+       - ./Docker/mysql/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - 3306:3306
+    expose:
+      - 3306
+    environment:
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=password
+      - MYSQL_ROOT_PASSWORD=root
+#php:
+#    container_name: my_app-php5
+#    build: ./Docker/php5-fpm
+#    expose:
+#        - 9000
+#    links:
+#        - mysql
+#    volumes_from:
+#        - my_app
+php:
+    container_name: my_app-php7
+    build: ./Docker/php7-fpm
+    expose:
+        - 9000
+    links:
+        - mysql
+    volumes_from:
+        - my_app

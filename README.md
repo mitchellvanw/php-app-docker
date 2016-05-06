@@ -8,9 +8,9 @@ Well, first of all, magic. Secondly, it's the easiest thing you've ever done, af
 
 I run OS X, which means I just installed Kitematic and it Just Worked (tm).
 
-For Linux, [http://lmgtfy.com?q=install+docker+on+linux](click here)
+For Linux, [click here](http://lmgtfy.com?q=install+docker+on+linux)
 
-For Windows, [http://lmgtfy.com?q=install+docker+on+windows](click here)
+For Windows, [click here](http://lmgtfy.com?q=install+docker+on+windows)
 
 Done? Great! Let's gooooo.
 

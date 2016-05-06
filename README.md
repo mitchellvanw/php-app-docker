@@ -35,6 +35,12 @@ Done? Great! Let's gooooo.
 Well, if you're like me, you've probably encountered every error humanly possible.
 In this situation I advice you to [make an issue](https://github.com/mitchellvanw/php-app-docker/issues/new) or spend countless hours in StackOverflow.
 
+## Image specific instructions
+### EventStore
+You can login using the docker and adding the port `2113`.
+If the installation was successful you should be able to login using the following credentials:
+- admin:changeit
+
 ## Internet Points
 
 Docker is awesome, but [@nickstrnl](https://twitter.com/nickstrnl) is even more awesome. He did a lot of the work on this thing.

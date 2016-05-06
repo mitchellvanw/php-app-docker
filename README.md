@@ -26,7 +26,7 @@ For Windows, [click here](http://lmgtfy.com?q=install+docker+on+windows)
 
 Done? Great! Let's gooooo.
 
-`docker-compose build & docker-compose up -d`
+`$ docker-compose build & docker-compose up -d`
 
 ## It's not running, what did I do wrong?
 

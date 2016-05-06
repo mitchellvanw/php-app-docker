@@ -13,6 +13,7 @@ But, it includes:
 * MySQL 5.7 (pronounce it as "my ess cue ell")
 * Redis 3.0 (just "redis")
 * EventStore (talking about the geteventstore.com one)
+* Memcached (are we caching memes now?)
 
 There's more coming, like beanstalkd, and stuff.
 

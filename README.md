@@ -14,6 +14,7 @@ But, it includes:
 * Redis 3.0 (just "redis")
 * EventStore (talking about the geteventstore.com one)
 * Memcached (are we caching memes now?)
+* Beanstalkd (wait, do I have to climb that thing?)
 
 There's more coming, like beanstalkd, and stuff.
 

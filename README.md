@@ -11,8 +11,9 @@ But, it includes:
 * PHP (5 or 7, you choose)
 * NGINX (also known as "engine x")
 * MySQL 5.7 (pronounce it as "my ess cue ell")
+* Redis 3.0
 
-There's more coming, like geteventstore, redis, beanstalkd, and stuff.
+There's more coming, like geteventstore, beanstalkd, and stuff.
 
 ## How does it work?
 

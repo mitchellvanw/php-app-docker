@@ -1,4 +1,4 @@
-FROM redis:latest
+FROM redis:3.0
 
 ADD redis.conf /usr/local/etc/redis/redis.conf
 

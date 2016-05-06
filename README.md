@@ -21,7 +21,7 @@ There's more coming, like beanstalkd, and stuff.
 
 Well, first of all, magic. Secondly, it's the easiest thing you've ever done, after you installed the metric crap ton of required software.
 
-I run OS X, which means I just installed Kitematic and it Just Worked (tm).
+I run OS X, which means I just installed Kitematic and it Just Works (tm).
 
 For Linux, [click here](http://lmgtfy.com?q=install+docker+on+linux)
 

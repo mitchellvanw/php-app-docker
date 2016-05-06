@@ -12,8 +12,9 @@ But, it includes:
 * NGINX (also known as "engine x")
 * MySQL 5.7 (pronounce it as "my ess cue ell")
 * Redis 3.0 (just "redis")
+* EventStore (talking about the geteventstore.com one)
 
-There's more coming, like geteventstore, beanstalkd, and stuff.
+There's more coming, like beanstalkd, and stuff.
 
 ## How does it work?
 

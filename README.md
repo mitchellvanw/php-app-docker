@@ -11,7 +11,7 @@ But, it includes:
 * PHP (5 or 7, you choose)
 * NGINX (also known as "engine x")
 * MySQL 5.7 (pronounce it as "my ess cue ell")
-* Redis 3.0
+* Redis 3.0 (just "redis")
 
 There's more coming, like geteventstore, beanstalkd, and stuff.
 

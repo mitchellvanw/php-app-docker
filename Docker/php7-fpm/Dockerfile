@@ -5,8 +5,7 @@ RUN apt-get install -y wget software-properties-common python-software-propertie
 RUN echo "deb http://packages.dotdeb.org jessie all" >> /etc/apt/sources.list
 RUN wget https://www.dotdeb.org/dotdeb.gpg
 RUN apt-key add dotdeb.gpg
-RUN apt-get update && apt-get install -y
-php7.0-common \
+RUN apt-get update && apt-get install -y php7.0-common \
     php7.0-cli \
     php7.0-curl \
     php7.0-gd \

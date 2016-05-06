@@ -36,10 +36,21 @@ Well, if you're like me, you've probably encountered every error humanly possibl
 In this situation I advice you to [make an issue](https://github.com/mitchellvanw/php-app-docker/issues/new) or spend countless hours in StackOverflow.
 
 ## Image specific instructions
+All images support environment variables using the following structure:
+```
+environment:
+    - KEY=value
+```
+If you're a fan of passing in files then use the following structure:
+```
+env_file:
+  - ./your-file.env
+```
+
 ### EventStore
 You can login using the docker and adding the port `2113`.
 If the installation was successful you should be able to login using the following credentials:
-- admin:changeit
+- `admin`:`changeit`
 
 ## Internet Points
 

@@ -38,3 +38,13 @@ services:
     ports:
       - 6379:6379
     restart: always
+
+  eventstore:
+      image: adbrowne/eventstore
+      ports:
+        - 2113:2113
+      expose:
+        - 2113
+      volumes:
+        - ./data/db:/data/db
+        - ./data/logs:/data/logs

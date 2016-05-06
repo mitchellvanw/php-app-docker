@@ -1,4 +1,5 @@
 /logs
 /.idea
+/data
 .DS_Store
 dump.rdb

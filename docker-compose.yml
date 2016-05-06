@@ -47,3 +47,8 @@ services:
     volumes:
       - ./data/db:/data/db
       - ./data/logs:/data/logs
+
+  memcached:
+    image: memcached:1.4
+    ports:
+      - 11211:11211

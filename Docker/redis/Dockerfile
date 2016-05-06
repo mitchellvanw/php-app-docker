@@ -1,9 +1,6 @@
 FROM redis:latest
 
-VOLUME /data
-WORKDIR /data
-
 ADD redis.conf /usr/local/etc/redis/redis.conf
 
-CMD ["redis-server"]
+CMD ["redis-server", "/usr/local/etc/redis/redis.conf"]
 EXPOSE 6379

@@ -1,7 +1,7 @@
 FROM nginx
 
 ADD nginx.conf /etc/nginx/
-ADD my_app.conf /etc/nginx/sites-enabled/
+ADD my_app.conf /etc/nginx/conf.d/default.conf
 
 #ADD letsencrypt.sh ./letsencrypt.sh
 #RUN /bin/bash -c "source ./letsencrypt.sh"

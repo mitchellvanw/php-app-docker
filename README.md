@@ -52,7 +52,7 @@ env_file:
 ```
 
 ### EventStore
-You can login using the docker and adding the port `2113`.
+You can login using the docker ip and adding the port `2113`.
 If the installation was successful you should be able to login using the following credentials:
 - `admin`:`changeit`
 

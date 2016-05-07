@@ -10,6 +10,7 @@ services:
       - 443:443
     volumes:
       - .:/var/www/my_app
+      - ./logs/nginx:/var/log/nginx
 
   mysql:
     image: mysql:5.7

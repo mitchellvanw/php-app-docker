@@ -2,6 +2,8 @@
 
 I was tired of having to copy these files around from project to project. So, here it is, a starter for your arbitrary php application.
 
+To be frank, this is probably not the best starter for you or in general. The idea is to provide enough of the widely popular tools to get started in minutes. Simply remove or comment out the container you don't need.
+
 ## What does it dooooo?
 
 Lots of stuff.

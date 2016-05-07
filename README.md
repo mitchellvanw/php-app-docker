@@ -16,7 +16,7 @@ But, it includes:
 * Memcached (are we caching memes now?)
 * Beanstalkd (wait, do I have to climb that thing?)
 
-There's more coming, like beanstalkd, and stuff.
+There's more coming, like elasticsearch, and stuff.
 
 ## How does it work?
 

@@ -27,7 +27,7 @@ services:
       dockerfile: Dockerfile
       context: ./Docker/php7-fpm
       args:
-        UID: 501
+        UID: 1000
     volumes:
       - .:/var/www/my_app
 
